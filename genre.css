@@ -1,0 +1,151 @@
+body{
+    background-color: #F6F6F6;
+
+}
+
+
+
+.upperbox1{
+	margin-top: 0px;
+	min-height: 700px;
+	max-height: 1000px;
+    background-color:  #F6F6F6;
+	opacity: 1;
+	
+}
+#genre-photo{
+	height: auto;
+	padding-top: 30px;
+	text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    overflow: auto;
+}
+#genre-photo > img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+#genre-photo > h2{
+	color: black;
+}
+.playlist-side{
+    height: auto;
+    background-color: #F6F6F6;
+    position: relative;
+    left: 300px;
+    top: 0;
+}
+#playlist-side{
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+#playlist-side > button{
+    padding: 10px;
+    margin-right: 10px;
+}
+.buttons{
+    height: 200px;
+}
+#play-button{	
+	text-align: center;
+}
+.btn{
+	border-radius: 5px;
+
+}
+.btn img {  
+    display: inline-block;
+    vertical-align: middle;
+    
+    padding: 5px;
+    border-radius: 100%;
+}
+
+
+table {
+        width: 100%;
+        background-color: #F6F6F6;
+        color: black;
+        padding-top: 0px;
+        margin-top: 0px;
+        
+
+    }
+#tbody > tr:hover{
+    background-color: #DDDDDD;
+}
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+
+tbody {
+    height: 500px;
+}
+
+
+tbody td, thead th {
+    width: 25%;
+    float: left;
+}
+
+
+
+
+.test{
+    height: 20px;
+    width: 20px;
+}
+.test:hover{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+.log{
+    float: right;
+    }
+
+.anchor{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+/* Change the link color to #111 (black) on hover */
+.anchor:hover {
+    background-color: #111;
+}

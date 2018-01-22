@@ -1,0 +1,132 @@
+body{
+    background-color: #262626;
+    
+}
+
+
+
+.nav-link{
+	color: white;
+	padding-left: 20px;
+}
+.nav-link:hover{
+	color: yellow;
+}
+.carousel-inner{
+	max-width: 1375px;
+	max-height: 400px;
+}
+.carousel-item {
+   width: 1375px;
+    min-height: 375px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar{
+	border:solid 2px #34386E;
+}
+
+#btns{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:5px;
+    width: 100px;
+}
+
+#menu {
+    margin-left: 15px;
+    color: white;
+    width: 1320px;
+    height: 48px;
+    background-color: black;
+    float: left;
+    border:solid 2px #34386E ;
+    
+}
+#menu ul{
+	padding-left: 0;
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    #menu li div.column.mayHide {
+        display: none;
+}
+}
+.container2{
+	color: white;
+    max-width: 900px;
+    max-height: 100%;
+    margin-left: 20px;
+   border:solid #219ABE 2px;
+   padding-top: 600px;
+   margin-top: 5px;
+
+
+}
+
+.login{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+.log{
+    float: right;
+    }
+
+.anchor{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+/* Change the link color to #111 (black) on hover */
+.anchor:hover {
+    background-color: #111;
+}
+
+#menu ul li a:hover{
+	color: yellow;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+#menu ul li {
+    display: inline;
+}
+.container3{
+color: white;
+padding-top: 25px;
+padding-left: 20px;
+float: left;
+}
+
+.col-lg-2{
+	padding-left: 50px;
+}
+.mq{
+    width:400px;
+    height:610px;
+    float:right;
+    margin-right: 20px;
+    background-color: #1E2140;
+
+}
+.containers{
+	margin-top: 60px;
+    padding: 30px 0;
+    background-color: #12131C;
+
+}
+
+
+
